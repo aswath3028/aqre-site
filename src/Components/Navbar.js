@@ -66,7 +66,7 @@ function Navbar() {
   return (
     <>
       <div className="Navbar">
-        <Link className="left-header" to="/home">
+        <Link className="left-header" to="/">
           <img className="img-logo" src={Logo} alt="Logo" />
         </Link>
         <div className="search">
