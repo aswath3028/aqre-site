@@ -11,8 +11,8 @@ import YourOrder from "./yourorder";
 function Navbar() {
   const navigate = useNavigate();
 
-  const [luser, setLuser] = useState(null);
-  const [cluser, setCuser] = useState(null);
+  const [luser, setLuser] = useState("null");
+  const [cluser, setCuser] = useState("null");
   const [cartInc,setcartInc] = useState(0);
   let user;
   let cuser;
