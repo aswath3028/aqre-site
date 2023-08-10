@@ -75,8 +75,7 @@ function Navbar() {
             className="searchIcon"
             icon={faSearch}
             size="25px"
-            color="white"
-          />
+            color="white"/>
         </div>
         <ul className="nav_menu">
           <li>
