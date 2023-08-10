@@ -27,7 +27,7 @@ export default function Register() {
     e.preventDefault();
     const { name, email, mobile, address, password } = data;
     if (password == data.confirmPassword) {
-      const res = await fetch("https://aqre-api.onrender.com//register", {
+      const res = await fetch("https://aqre-api.onrender.com/register", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

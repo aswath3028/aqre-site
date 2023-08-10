@@ -22,7 +22,7 @@ export default function Update() {
   const [pho, setPho] = useState(null);
   const fetchData = () => {
     
-    fetch('https://aqre-api.onrender.com//updatefetch',{
+    fetch('https://aqre-api.onrender.com/updatefetch',{
         method:"POST",
         headers:{
           "Content-Type": "application/json"
@@ -90,7 +90,7 @@ export default function Update() {
 
     console.log(data);
 
-    fetch("https://aqre-api.onrender.com//updateproduct", {
+    fetch("https://aqre-api.onrender.com/updateproduct", {
       method: "POST",
 
       body: fd,

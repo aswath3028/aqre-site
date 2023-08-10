@@ -22,7 +22,7 @@ export default function Custlog() {
   const Login = async (e) => {
     e.preventDefault();
     const { email, password } = data;
-    fetch("https://aqre-api.onrender.com//custlog", {
+    fetch("https://aqre-api.onrender.com/custlog", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

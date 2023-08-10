@@ -26,7 +26,7 @@ function Navbar() {
     setLuser(user);
     setCuser(cuser);
     cemail = localStorage.getItem('cemail');
-        fetch('https://aqre-api.onrender.com//getCartProduct',{
+        fetch('https://aqre-api.onrender.com/getCartProduct',{
             method:"POST",
             headers:{
               "Content-Type": "application/json"

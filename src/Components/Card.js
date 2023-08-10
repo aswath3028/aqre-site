@@ -41,7 +41,7 @@ function Card(props, handleClick) {
       navigate("/custlog", { replace: true });
     }
     else{
-      fetch("https://aqre-api.onrender.com//cart", {
+      fetch("https://aqre-api.onrender.com/cart", {
         method: "POST",
         headers:{
           "Content-Type": "application/json"

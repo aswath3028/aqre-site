@@ -18,13 +18,13 @@ export default function Orders(props) {
     useEffect(() => {
       fetchData();
   
-      // const res = await axios.get("https://aqre-api.onrender.com//getProduct");
+      // const res = await axios.get("https://aqre-api.onrender.com/getProduct");
       // setData(res.data);
       // console.log(res.data);
     });
     const fetchData = () => {
         let lemail = localStorage.getItem('lemail');
-        fetch('https://aqre-api.onrender.com//getOrderProduct',{
+        fetch('https://aqre-api.onrender.com/getOrderProduct',{
             method:"POST",
             headers:{
               "Content-Type": "application/json"

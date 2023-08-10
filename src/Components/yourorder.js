@@ -19,14 +19,14 @@ export default function YourOrder(props) {
     useEffect(() => {
       fetchData();
         console.log(data);
-      // const res = await axios.get("https://aqre-api.onrender.com//getProduct");
+      // const res = await axios.get("https://aqre-api.onrender.com/getProduct");
       // setData(res.data);
       // console.log(res.data);
     });
    
     const fetchData = () => {
         let cemail = localStorage.getItem('cemail');
-        fetch('https://aqre-api.onrender.com//getyourorder',{
+        fetch('https://aqre-api.onrender.com/getyourorder',{
             method:"POST",
             headers:{
               "Content-Type": "application/json"

@@ -17,7 +17,7 @@ export default function Cart(props) {
   useEffect(() => {
     fetchData();
     console.log(data);
-    // const res = await axios.get("https://aqre-api.onrender.com//getProduct");
+    // const res = await axios.get("https://aqre-api.onrender.com/getProduct");
     // setData(res.data);
     // console.log(res.data);
   });
@@ -26,7 +26,7 @@ export default function Cart(props) {
   });
   const fetchData = () => {
     let cemail = localStorage.getItem("cemail");
-    fetch("https://aqre-api.onrender.com//getCartProduct", {
+    fetch("https://aqre-api.onrender.com/getCartProduct", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -47,7 +47,7 @@ export default function Cart(props) {
   };
   const fetchTotal = () => {
     let cemail = localStorage.getItem("cemail");
-    fetch("https://aqre-api.onrender.com//getCartTotal", {
+    fetch("https://aqre-api.onrender.com/getCartTotal", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -68,7 +68,7 @@ export default function Cart(props) {
   };
 
   const Delete = (item) => {
-    fetch("https://aqre-api.onrender.com//deleteCartProduct", {
+    fetch("https://aqre-api.onrender.com/deleteCartProduct", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -90,7 +90,7 @@ export default function Cart(props) {
   };
   const Placeorder = () => {
     let cemail = localStorage.getItem("cemail");
-    fetch("https://aqre-api.onrender.com//getCartProduct", {
+    fetch("https://aqre-api.onrender.com/getCartProduct", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -109,7 +109,7 @@ export default function Cart(props) {
       .catch((err) => {
         console.log(err);
       });
-    fetch("https://aqre-api.onrender.com//placeorder", {
+    fetch("https://aqre-api.onrender.com/placeorder", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

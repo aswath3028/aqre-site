@@ -25,7 +25,7 @@ export default function Custreg() {
     e.preventDefault();
     const { name, email, mobile, address, password } = data;
     if (password == data.confirmPassword) {
-      const res = await fetch("https://aqre-api.onrender.com//custreg", {
+      const res = await fetch("https://aqre-api.onrender.com/custreg", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

@@ -16,13 +16,13 @@ export default function View(props) {
   useEffect(() => {
     fetchData();
 
-    // const res = await axios.get("https://aqre-api.onrender.com//getProduct");
+    // const res = await axios.get("https://aqre-api.onrender.com/getProduct");
     // setData(res.data);
     // console.log(res.data);
   });
   const fetchData = () => {
     let lemail = localStorage.getItem("lemail");
-    fetch("https://aqre-api.onrender.com//getViewProduct", {
+    fetch("https://aqre-api.onrender.com/getViewProduct", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -41,7 +41,7 @@ export default function View(props) {
       });
   };
   const Delete = (item) => {
-    fetch("https://aqre-api.onrender.com//deleteProduct", {
+    fetch("https://aqre-api.onrender.com/deleteProduct", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -90,7 +90,7 @@ export default function View(props) {
                           <td>
                             <img
                               src={
-                                "https://aqre-api.onrender.com//" + item.photo.substr(13)
+                                "https://aqre-api.onrender.com/" + item.photo.substr(13)
                               }
                               alt=""
                               style={{ height: "100px", width: "100px" }}

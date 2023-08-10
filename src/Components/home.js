@@ -18,12 +18,12 @@ function Home() {
     fetchData();
     cemail = localStorage.getItem('cemail');
 
-    // const res = await axios.get("https://aqre-api.onrender.com//getProduct");
+    // const res = await axios.get("https://aqre-api.onrender.com/getProduct");
     // setData(res.data);
     // console.log(res.data);
   }, []);
   const fetchData = () => {
-    fetch("https://aqre-api.onrender.com//getProduct")
+    fetch("https://aqre-api.onrender.com/getProduct")
       .then((result) => result.json())
       .then((val) => {
         const ddata = val.data;
@@ -45,7 +45,7 @@ function Home() {
   }
   const Filter = ()=>{
     
-    fetch('https://aqre-api.onrender.com//filter',{
+    fetch('https://aqre-api.onrender.com/filter',{
         method:"POST",
         headers:{
           "Content-Type": "application/json"
@@ -107,7 +107,7 @@ function Home() {
             
             <Card
               productName={item.productName}
-              photo={"https://aqre-api.onrender.com//" + item.photo.substr(13)}
+              photo={"https://aqre-api.onrender.com/" + item.photo.substr(13)}
               productDescription={item.productDescription}
               price={item.price}
               discount={item.discount}

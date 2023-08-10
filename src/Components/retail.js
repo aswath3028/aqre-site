@@ -27,7 +27,7 @@ export default function Retail() {
   const Login = async (e) => {
     e.preventDefault();
     const { email, password } = data;
-    fetch("https://aqre-api.onrender.com//retail", {
+    fetch("https://aqre-api.onrender.com/retail", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

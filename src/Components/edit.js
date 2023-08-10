@@ -48,7 +48,7 @@ export default function Edit() {
 
     console.log(fd);
 
-    fetch("https://aqre-api.onrender.com//addProduct", {
+    fetch("https://aqre-api.onrender.com/addProduct", {
       method: "POST",
 
       body: fd,
