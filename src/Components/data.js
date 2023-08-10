@@ -1,0 +1,103 @@
+const list = [
+    {
+      id: 1,
+      title: "Apple",
+      price: 89,
+      img: "https://media.istockphoto.com/photos/red-apple-picture-id184276818?k=20&m=184276818&s=612x612&w=0&h=QxOcueqAUVTdiJ7DVoCu-BkNCIuwliPEgtAQhgvBA_g=",
+      qty: 1,
+    },
+    {
+      id: 2,
+      title: "Apple",
+      price: 89,
+      img: "https://media.istockphoto.com/photos/red-apple-picture-id184276818?k=20&m=184276818&s=612x612&w=0&h=QxOcueqAUVTdiJ7DVoCu-BkNCIuwliPEgtAQhgvBA_g=",
+      qty: 1,
+    },
+    {
+      id: 3,
+      title: "Apple",
+      price: 89,
+      img: "https://media.istockphoto.com/photos/red-apple-picture-id184276818?k=20&m=184276818&s=612x612&w=0&h=QxOcueqAUVTdiJ7DVoCu-BkNCIuwliPEgtAQhgvBA_g=",
+      qty: 1,
+    },
+    {
+      id: 4,
+      title: "Apple",
+      price: 89,
+      img: "https://media.istockphoto.com/photos/red-apple-picture-id184276818?k=20&m=184276818&s=612x612&w=0&h=QxOcueqAUVTdiJ7DVoCu-BkNCIuwliPEgtAQhgvBA_g=",
+      qty: 1,
+    },
+    {
+      id: 5,
+      title: "Apple",
+      price: 89,
+      img: "https://media.istockphoto.com/photos/red-apple-picture-id184276818?k=20&m=184276818&s=612x612&w=0&h=QxOcueqAUVTdiJ7DVoCu-BkNCIuwliPEgtAQhgvBA_g=",
+      qty: 1,
+    },
+    {
+      id: 6,
+      title: "Apple",
+      price: 89,
+      img: "https://media.istockphoto.com/photos/red-apple-picture-id184276818?k=20&m=184276818&s=612x612&w=0&h=QxOcueqAUVTdiJ7DVoCu-BkNCIuwliPEgtAQhgvBA_g=",
+      qty: 1,
+    },
+    {
+      id: 7,
+      title: "Apple",
+      price: 89,
+      img: "https://media.istockphoto.com/photos/red-apple-picture-id184276818?k=20&m=184276818&s=612x612&w=0&h=QxOcueqAUVTdiJ7DVoCu-BkNCIuwliPEgtAQhgvBA_g=",
+      qty: 1,
+    },
+    {
+      id: 8,
+      title: "Apple",
+      price: 89,
+      img: "https://media.istockphoto.com/photos/red-apple-picture-id184276818?k=20&m=184276818&s=612x612&w=0&h=QxOcueqAUVTdiJ7DVoCu-BkNCIuwliPEgtAQhgvBA_g=",
+      qty: 1,
+    },
+    {
+      id: 9,
+      title: "Apple",
+      price: 89,
+      img: "https://media.istockphoto.com/photos/red-apple-picture-id184276818?k=20&m=184276818&s=612x612&w=0&h=QxOcueqAUVTdiJ7DVoCu-BkNCIuwliPEgtAQhgvBA_g=",
+      qty: 1,
+    },
+    {
+      id: 10,
+      title: "Apple",
+      price: 89,
+      img: "https://media.istockphoto.com/photos/red-apple-picture-id184276818?k=20&m=184276818&s=612x612&w=0&h=QxOcueqAUVTdiJ7DVoCu-BkNCIuwliPEgtAQhgvBA_g=",
+      qty: 1,
+    },
+    {
+      id: 11,
+      title: "Apple",
+      price: 89,
+      img: "https://media.istockphoto.com/photos/red-apple-picture-id184276818?k=20&m=184276818&s=612x612&w=0&h=QxOcueqAUVTdiJ7DVoCu-BkNCIuwliPEgtAQhgvBA_g=",
+      qty: 1,
+    },
+    {
+      id: 12,
+      title: "Apple",
+      price: 89,
+      img: "https://media.istockphoto.com/photos/red-apple-picture-id184276818?k=20&m=184276818&s=612x612&w=0&h=QxOcueqAUVTdiJ7DVoCu-BkNCIuwliPEgtAQhgvBA_g=",
+      qty: 1,
+    },
+    {
+      id: 13,
+      title: "Apple",
+      price: 89,
+      img: "https://media.istockphoto.com/photos/red-apple-picture-id184276818?k=20&m=184276818&s=612x612&w=0&h=QxOcueqAUVTdiJ7DVoCu-BkNCIuwliPEgtAQhgvBA_g=",
+      qty: 1,
+    },
+    {
+      id: 14,
+      title: "Apple",
+      price: 89,
+      img: "https://media.istockphoto.com/photos/red-apple-picture-id184276818?k=20&m=184276818&s=612x612&w=0&h=QxOcueqAUVTdiJ7DVoCu-BkNCIuwliPEgtAQhgvBA_g=",
+      qty: 1,
+    },
+
+  ];
+  
+  export default list;
